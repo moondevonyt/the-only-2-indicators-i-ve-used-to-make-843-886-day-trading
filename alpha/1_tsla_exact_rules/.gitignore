@@ -1,0 +1,7 @@
+# Moon Dev: big local caches (rebuild with build_bars.py / backtest.py / report.py)
+grid_rows.pkl
+parts.json
+trades_cache.pkl
+__pycache__/
+*.log
+bars_1m.parquet

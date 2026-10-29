@@ -1,0 +1,533 @@
+{
+ "exact": {
+  "all": {
+   "trades": 124,
+   "win_rate": 0.3226,
+   "avg_R": 0.2314,
+   "profit_factor": 1.367,
+   "total_return_pct": 7.93,
+   "max_dd_pct": -3.16,
+   "sharpe": 0.84,
+   "avg_pnl_bp": 6.33,
+   "tstat": 1.2
+  },
+  "is_": {
+   "trades": 88,
+   "win_rate": 0.3182,
+   "avg_R": 0.0781,
+   "profit_factor": 1.16,
+   "total_return_pct": 2.5,
+   "max_dd_pct": -3.16,
+   "sharpe": 0.44,
+   "avg_pnl_bp": 2.95,
+   "tstat": 0.51
+  },
+  "oos": {
+   "trades": 36,
+   "win_rate": 0.3333,
+   "avg_R": 0.6063,
+   "profit_factor": 2.005,
+   "total_return_pct": 5.3,
+   "max_dd_pct": -1.36,
+   "sharpe": 1.63,
+   "avg_pnl_bp": 14.6,
+   "tstat": 1.27
+  },
+  "all0": {
+   "trades": 124,
+   "win_rate": 0.3306,
+   "avg_R": 0.3304,
+   "profit_factor": 1.549,
+   "total_return_pct": 11.05,
+   "max_dd_pct": -2.94,
+   "sharpe": 1.14,
+   "avg_pnl_bp": 8.63,
+   "tstat": 1.63
+  },
+  "is0": {
+   "trades": 88,
+   "win_rate": 0.3295,
+   "avg_R": 0.1726,
+   "profit_factor": 1.312,
+   "total_return_pct": 4.6,
+   "max_dd_pct": -2.94,
+   "sharpe": 0.78,
+   "avg_pnl_bp": 5.26,
+   "tstat": 0.91
+  },
+  "oos0": {
+   "trades": 36,
+   "win_rate": 0.3333,
+   "avg_R": 0.7161,
+   "profit_factor": 2.296,
+   "total_return_pct": 6.17,
+   "max_dd_pct": -1.24,
+   "sharpe": 1.85,
+   "avg_pnl_bp": 16.87,
+   "tstat": 1.47
+  }
+ },
+ "chosen": {
+  "name": "best_base",
+  "params": {
+   "setup": "base",
+   "bias": "gap",
+   "filters": true,
+   "gap": 0.01,
+   "flat": 0.0,
+   "steep": 0.25,
+   "align": 0,
+   "trig": "doji_tail",
+   "skip": 2.5,
+   "tmin": 2,
+   "block": 0.003,
+   "use200": true,
+   "exit": "R1",
+   "base_n": 6,
+   "base_w": 3.0
+  },
+  "all": {
+   "trades": 633,
+   "win_rate": 0.5355,
+   "avg_R": 0.1841,
+   "profit_factor": 1.453,
+   "total_return_pct": 155.67,
+   "max_dd_pct": -10.06,
+   "sharpe": 2.36,
+   "avg_pnl_bp": 15.43,
+   "tstat": 3.55
+  },
+  "is_": {
+   "trades": 481,
+   "win_rate": 0.5593,
+   "avg_R": 0.2237,
+   "profit_factor": 1.502,
+   "total_return_pct": 129.39,
+   "max_dd_pct": -8.87,
+   "sharpe": 2.79,
+   "avg_pnl_bp": 17.94,
+   "tstat": 3.38
+  },
+  "oos": {
+   "trades": 152,
+   "win_rate": 0.4605,
+   "avg_R": 0.0587,
+   "profit_factor": 1.261,
+   "total_return_pct": 11.46,
+   "max_dd_pct": -9.19,
+   "sharpe": 1.21,
+   "avg_pnl_bp": 7.49,
+   "tstat": 1.1
+  },
+  "all0": {
+   "trades": 633,
+   "win_rate": 0.5371,
+   "avg_R": 0.2203,
+   "profit_factor": 1.538,
+   "total_return_pct": 195.84,
+   "max_dd_pct": -8.88,
+   "sharpe": 2.7,
+   "avg_pnl_bp": 17.74,
+   "tstat": 4.08
+  },
+  "is0": {
+   "trades": 481,
+   "win_rate": 0.5613,
+   "avg_R": 0.2574,
+   "profit_factor": 1.584,
+   "total_return_pct": 156.46,
+   "max_dd_pct": -8.71,
+   "sharpe": 3.13,
+   "avg_pnl_bp": 20.26,
+   "tstat": 3.82
+  },
+  "oos0": {
+   "trades": 152,
+   "win_rate": 0.4605,
+   "avg_R": 0.1031,
+   "profit_factor": 1.355,
+   "total_return_pct": 15.35,
+   "max_dd_pct": -8.31,
+   "sharpe": 1.57,
+   "avg_pnl_bp": 9.75,
+   "tstat": 1.43
+  }
+ },
+ "best_base": {
+  "params": {
+   "setup": "base",
+   "bias": "gap",
+   "filters": true,
+   "gap": 0.01,
+   "flat": 0.0,
+   "steep": 0.25,
+   "align": 0,
+   "trig": "doji_tail",
+   "skip": 2.5,
+   "tmin": 2,
+   "block": 0.003,
+   "use200": true,
+   "exit": "R1",
+   "base_n": 6,
+   "base_w": 3.0
+  },
+  "all": {
+   "trades": 633,
+   "win_rate": 0.5355,
+   "avg_R": 0.1841,
+   "profit_factor": 1.453,
+   "total_return_pct": 155.67,
+   "max_dd_pct": -10.06,
+   "sharpe": 2.36,
+   "avg_pnl_bp": 15.43,
+   "tstat": 3.55
+  },
+  "is_": {
+   "trades": 481,
+   "win_rate": 0.5593,
+   "avg_R": 0.2237,
+   "profit_factor": 1.502,
+   "total_return_pct": 129.39,
+   "max_dd_pct": -8.87,
+   "sharpe": 2.79,
+   "avg_pnl_bp": 17.94,
+   "tstat": 3.38
+  },
+  "oos": {
+   "trades": 152,
+   "win_rate": 0.4605,
+   "avg_R": 0.0587,
+   "profit_factor": 1.261,
+   "total_return_pct": 11.46,
+   "max_dd_pct": -9.19,
+   "sharpe": 1.21,
+   "avg_pnl_bp": 7.49,
+   "tstat": 1.1
+  },
+  "all0": {
+   "trades": 633,
+   "win_rate": 0.5371,
+   "avg_R": 0.2203,
+   "profit_factor": 1.538,
+   "total_return_pct": 195.84,
+   "max_dd_pct": -8.88,
+   "sharpe": 2.7,
+   "avg_pnl_bp": 17.74,
+   "tstat": 4.08
+  },
+  "is0": {
+   "trades": 481,
+   "win_rate": 0.5613,
+   "avg_R": 0.2574,
+   "profit_factor": 1.584,
+   "total_return_pct": 156.46,
+   "max_dd_pct": -8.71,
+   "sharpe": 3.13,
+   "avg_pnl_bp": 20.26,
+   "tstat": 3.82
+  },
+  "oos0": {
+   "trades": 152,
+   "win_rate": 0.4605,
+   "avg_R": 0.1031,
+   "profit_factor": 1.355,
+   "total_return_pct": 15.35,
+   "max_dd_pct": -8.31,
+   "sharpe": 1.57,
+   "avg_pnl_bp": 9.75,
+   "tstat": 1.43
+  }
+ },
+ "no_filters": {
+  "all": {
+   "trades": 2338,
+   "win_rate": 0.3358,
+   "avg_R": -0.0012,
+   "profit_factor": 0.985,
+   "total_return_pct": -11.16,
+   "max_dd_pct": -31.98,
+   "sharpe": -0.15,
+   "avg_pnl_bp": -0.3,
+   "tstat": -0.23
+  },
+  "is_": {
+   "trades": 1694,
+   "win_rate": 0.3406,
+   "avg_R": 0.024,
+   "profit_factor": 1.01,
+   "total_return_pct": -0.57,
+   "max_dd_pct": -26.34,
+   "sharpe": 0.1,
+   "avg_pnl_bp": 0.22,
+   "tstat": 0.12
+  },
+  "oos": {
+   "trades": 644,
+   "win_rate": 0.323,
+   "avg_R": -0.0675,
+   "profit_factor": 0.897,
+   "total_return_pct": -10.66,
+   "max_dd_pct": -15.74,
+   "sharpe": -1.19,
+   "avg_pnl_bp": -1.66,
+   "tstat": -1.0
+  },
+  "all0": {
+   "trades": 2338,
+   "win_rate": 0.3503,
+   "avg_R": 0.0778,
+   "profit_factor": 1.106,
+   "total_return_pct": 52.25,
+   "max_dd_pct": -20.7,
+   "sharpe": 0.98,
+   "avg_pnl_bp": 2.0,
+   "tstat": 1.5
+  },
+  "is0": {
+   "trades": 1694,
+   "win_rate": 0.3506,
+   "avg_R": 0.0974,
+   "profit_factor": 1.124,
+   "total_return_pct": 47.33,
+   "max_dd_pct": -20.7,
+   "sharpe": 1.16,
+   "avg_pnl_bp": 2.54,
+   "tstat": 1.47
+  },
+  "oos0": {
+   "trades": 644,
+   "win_rate": 0.3494,
+   "avg_R": 0.0261,
+   "profit_factor": 1.041,
+   "total_return_pct": 3.33,
+   "max_dd_pct": -8.19,
+   "sharpe": 0.43,
+   "avg_pnl_bp": 0.6,
+   "tstat": 0.36
+  }
+ },
+ "no_bias": {
+  "all": {
+   "trades": 525,
+   "win_rate": 0.3067,
+   "avg_R": 0.1381,
+   "profit_factor": 1.212,
+   "total_return_pct": 20.37,
+   "max_dd_pct": -7.66,
+   "sharpe": 0.86,
+   "avg_pnl_bp": 3.73,
+   "tstat": 1.34
+  },
+  "is_": {
+   "trades": 352,
+   "win_rate": 0.3068,
+   "avg_R": 0.1515,
+   "profit_factor": 1.262,
+   "total_return_pct": 17.55,
+   "max_dd_pct": -7.66,
+   "sharpe": 1.0,
+   "avg_pnl_bp": 4.83,
+   "tstat": 1.31
+  },
+  "oos": {
+   "trades": 173,
+   "win_rate": 0.3064,
+   "avg_R": 0.1108,
+   "profit_factor": 1.095,
+   "total_return_pct": 2.4,
+   "max_dd_pct": -3.27,
+   "sharpe": 0.49,
+   "avg_pnl_bp": 1.51,
+   "tstat": 0.38
+  },
+  "all0": {
+   "trades": 525,
+   "win_rate": 0.3238,
+   "avg_R": 0.2378,
+   "profit_factor": 1.376,
+   "total_return_pct": 35.82,
+   "max_dd_pct": -7.11,
+   "sharpe": 1.39,
+   "avg_pnl_bp": 6.03,
+   "tstat": 2.16
+  },
+  "is0": {
+   "trades": 352,
+   "win_rate": 0.3182,
+   "avg_R": 0.2455,
+   "profit_factor": 1.424,
+   "total_return_pct": 27.54,
+   "max_dd_pct": -7.11,
+   "sharpe": 1.48,
+   "avg_pnl_bp": 7.15,
+   "tstat": 1.94
+  },
+  "oos0": {
+   "trades": 173,
+   "win_rate": 0.3353,
+   "avg_R": 0.2222,
+   "profit_factor": 1.262,
+   "total_return_pct": 6.49,
+   "max_dd_pct": -2.85,
+   "sharpe": 1.21,
+   "avg_pnl_bp": 3.77,
+   "tstat": 0.96
+  }
+ },
+ "random_exact": {
+  "real_avg_bp": 6.33,
+  "random_avg_bp": 7.56,
+  "random_p95_bp": 14.81,
+  "pct_random_beat_real": 0.594
+ },
+ "random_chosen": {
+  "real_avg_bp": 15.43,
+  "random_avg_bp": 21.33,
+  "random_p95_bp": 26.41,
+  "pct_random_beat_real": 0.972
+ },
+ "grid_pos": [
+  7077,
+  6774,
+  16524
+ ],
+ "d200_first": "2025-04-21",
+ "replay_day": "2026-07-06",
+ "claims": [
+  {
+   "claim": "Never trade a flat / sideways 20 SMA (it is chop)",
+   "timestamp": "0:10",
+   "test": "All gap-direction touches of the 9 EMA on his time-of-day timeframes, 2R target, stop under trigger bar. Avg net R by 20 SMA slope (ATR per bar; 'flat' cut-off is a sweep, video leaves it out).",
+   "result": "flat (<0.03 ATR/bar) avg R -0.029 (n=313) vs sloped 0.03-0.25 avg R -0.080; steep>0.25 avg R +0.083",
+   "verdict": "NOT SUPPORTED",
+   "table": {
+    "against": [
+     1520,
+     -0.059
+    ],
+    "flat<0.03": [
+     313,
+     -0.029
+    ],
+    "0.03-0.06": [
+     271,
+     -0.103
+    ],
+    "0.06-0.15": [
+     835,
+     -0.012
+    ],
+    "0.15-0.25": [
+     724,
+     -0.149
+    ],
+    "steep>0.25": [
+     406,
+     0.083
+    ]
+   }
+  },
+  {
+   "claim": "More prior touches of the 20 SMA that held = more reliable",
+   "timestamp": "0:11",
+   "test": "Same raw signals with a rising (falling) 20 SMA. Avg net R by how many touch episodes held earlier in the same 20 SMA run (touch = low within 0.1 ATR of the 20 and close holds it; video leaves the definition out).",
+   "result": "0 touches: -0.068R (n=1017); 1 touches: -0.040R (n=668); 2 touches: -0.003R (n=335); 3+ touches: -0.045R (n=529)",
+   "verdict": "NOT SUPPORTED",
+   "table": {
+    "0": [
+     1017,
+     -0.068
+    ],
+    "1": [
+     668,
+     -0.04
+    ],
+    "2": [
+     335,
+     -0.003
+    ],
+    "3+": [
+     529,
+     -0.045
+    ]
+   }
+  },
+  {
+   "claim": "Far from the 20 SMA = exit zone, not entry zone",
+   "timestamp": "0:13",
+   "test": "Every 5m bar in a trend (20 SMA sloped, price and 9 EMA on the trend side). Next 30 min return in the trend direction, bucketed by distance from the 20 SMA in ATRs (threshold is a sweep, video leaves it out).",
+   "result": "in zone <0.5: -0.29 bp (n=4147); 0.5-1.5: +1.44 bp (n=10690); 1.5-2.5: +3.70 bp (n=7834); 2.5-3.5: +1.87 bp (n=3597); >3.5 ATR: +4.79 bp (n=1834)",
+   "verdict": "NOT SUPPORTED",
+   "table": {
+    "in zone <0.5": [
+     4147,
+     -0.29
+    ],
+    "0.5-1.5": [
+     10690,
+     1.44
+    ],
+    "1.5-2.5": [
+     7834,
+     3.7
+    ],
+    "2.5-3.5": [
+     3597,
+     1.87
+    ],
+    ">3.5 ATR": [
+     1834,
+     4.79
+    ]
+   }
+  },
+  {
+   "claim": "After the trend accelerates, skip the FIRST pullback / breakout",
+   "timestamp": "0:14",
+   "test": "Filtered pullback signals (trend + alignment), 2R exit. Compare the first pullback after a bar more than 2.5 ATR from the 20 SMA (video leaves the number out) vs all other pullbacks.",
+   "result": "first pullback after acceleration avg R -0.105 (n=482), win 32.8%; other pullbacks avg R -0.042 (n=1148), win 35.6%",
+   "verdict": "SUPPORTED"
+  },
+  {
+   "claim": "Gap up = look long, gap down = look short (gap days trend)",
+   "timestamp": "0:22",
+   "test": "Per day: does the 09:30-16:00 move follow the gap? Plus: the IS-chosen setup traded BOTH ways every day, split by with-gap vs against-gap.",
+   "result": "close follows gap: <0.5% gap 46% of 147 days; 0.5-1% gap 49% of 128 days; 1-2% gap 59% of 163 days; 2-3% gap 64% of 66 days; >3% gap 50% of 48 days. Trades with gap avg R +0.193 (n=325) vs against gap +0.049 (n=200)",
+   "verdict": "SUPPORTED",
+   "table": {
+    "<0.5%": [
+     147,
+     0.456,
+     0.459
+    ],
+    "0.5-1%": [
+     128,
+     0.492,
+     0.503
+    ],
+    "1-2%": [
+     163,
+     0.589,
+     0.454
+    ],
+    "2-3%": [
+     66,
+     0.636,
+     0.467
+    ],
+    ">3%": [
+     48,
+     0.5,
+     0.476
+    ]
+   }
+  },
+  {
+   "claim": "The 200 SMA acts as support / resistance and is the target",
+   "timestamp": "0:15",
+   "test": "First touch of the 1h and daily 200 SMA each day (after 30 min on one side): does price stay rejected 60 min later? Placebo = same test on the 200 shifted 1% up and down. Plus: trades with a 200 SMA within 0.3% in the way vs not.",
+   "result": "1h 200: rejected 41.8% (n=55) vs placebo 38.7% (n=124); daily 200 (from 2025-04-21): rejected 60.9% (n=23) vs placebo 58.6% (n=58). Exact-system trades with a 200 target hit it 3.8% of the time (n=52). Trades with a 200 within 0.3% in the way avg R -0.080 (n=61) vs clear -0.060",
+   "verdict": "WEAK"
+  }
+ ]
+}
