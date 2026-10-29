@@ -15,3 +15,5 @@ All credit for the video goes to Emmanuel Malyarovich. Go watch it and subscribe
    Claude reads `transcript.md` and answers from the real video.
 
 Built by Moon Dev. I have helped 1,000+ people go from dead beginner to fully automated trader.
+
+Need help implementing this or just want to be part of our group chat? Start here: https://moondev.com/t/github
